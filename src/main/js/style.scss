@@ -1,0 +1,154 @@
+// sudo gem install sass
+// sass style.scss ../site/gen/style.css
+
+$code-font-stack: Consolas, 'Lucida Console', 'DejaVu Sans Mono', monospace;
+$primary-color: #242b36;
+$secondary-color: #4c4c53;
+$accent-color: #e60000;
+$text-color: #4d4d4d;
+$text-dark-bg: rgba(36, 43, 54, 0.5);
+
+@mixin top_bottom_padding($value) {
+  padding-top: $value;
+  padding-bottom: $value;
+}
+
+@mixin bg_img($url) {
+  background: url($url);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+body {
+  padding-top: 50px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: auto;
+  color: $text-color;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -o-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+}
+
+.section-hero {
+  @include bg_img('../images/bg_top.jpg')
+}
+
+.icon {
+  height: 96px;
+}
+
+.navbar-inverse {
+  background: $primary-color none;
+  border-color: $primary-color;
+}
+
+.dark_layer_text {
+  color: #ffffff;
+  font-style: normal;
+  background: $text-dark-bg;
+  background-size: cover;
+  a {
+    color: #ffffff;
+  }
+}
+
+.note {
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.btn_img {
+  width: 44px;
+  height: auto;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #b6b6b6;
+  background: #e6ebebeb;
+  margin: 3px;
+  padding: 3px;
+}
+
+.map_point {
+  width: 16px;
+  height: 16px;
+}
+
+.dark_layer {
+  @extend .dark_layer_text;
+  p {
+    font-size: 1.75rem;
+  }
+}
+
+.dark_dark_layer {
+  @extend .dark_layer_text;
+  background: $secondary-color;
+}
+
+.standard_margin {
+  margin-top: 16px;
+}
+
+.standard_margin_bottom {
+  margin-bottom: 16px;
+}
+
+.standard_margin_top_bottom {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.mad_footer {
+  div {
+    @include top_bottom_padding(16pt);
+  }
+  margin-top: 16px;
+  @include bg_img('../images/bg_bottom.jpg');
+}
+
+.centered {
+  display: block;
+  margin: auto;
+}
+
+.hero-heading {
+  h1 {
+    font-family: $code-font-stack;
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  p {
+    margin-top: 2em;
+    text-align: center;
+  }
+  div {
+    @include top_bottom_padding(16pt);
+  }
+}
+
+.front_image_div {
+  margin-top: 12pt;
+}
+
+.accented {
+  color: $accent-color;
+}
+
+.navbar {
+  font-size: 1.75rem;
+}
+
+.screenshot {
+  width: 250px;
+}
+
+a {
+  font-size: 1.75rem;
+}

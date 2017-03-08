@@ -4,6 +4,8 @@
 build/
 mongodb_data/
 out/
-src/js/node_modules/
 .DS_Store
 *bundle.js
+
+src/main/js/node_modules/
+src/main/js/.sass-cache/
