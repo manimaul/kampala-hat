@@ -20,12 +20,5 @@ to attend a hack-a-thon.  This web app uses the following stack:
 
 ####Building and running / Gradle Tasks
 
-* `./gradlew :assemble` builds the app
+* `./gradlew :build` builds the app into a 'jar'
 * `./gradlew :bootRun` builds and runs the app
-* `./gradlew :startScripts` creates startup scripts to the build/scripts directory. This tasks creates startup scripts for 
-Windows and *nix operating systems.
-* `./gradlew :installApp` installs the application into the build/install/${project}" directory.
-* `./gradlew :distZip` creates the binary distribution and packages it into a zip file that is found from the 
-build/distributions directory.
-* `./gradlew :distTar` creates the binary distribution and packages it into a tar file that is found from the 
-build/distributions directory.

@@ -1,2 +1,2 @@
 rootProject.name = 'kampala-hackathon'
-
+rootProject.buildFileName = 'build.gradle.kts'
