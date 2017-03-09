@@ -56,6 +56,9 @@ const config = {
         filename: 'app.bundle.js',
         compress: true,
         port: 9000
+    },
+    resolve: {
+        extensions: ['.js', '.jsx']
     }
 };
 
