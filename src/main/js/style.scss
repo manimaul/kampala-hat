@@ -20,6 +20,16 @@ $text-dark-bg: rgba(36, 43, 54, 0.5);
   background-size: cover;
 }
 
+.blip_section_heading {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
 body {
   padding-top: 50px;
   -webkit-font-smoothing: antialiased;
@@ -35,6 +45,10 @@ body {
 
 .section-hero {
   @include bg_img('../images/bg_top.jpg')
+}
+
+.section-seattle {
+  @include bg_img('../images/seattle.jpg')
 }
 
 .icon {
@@ -100,15 +114,14 @@ body {
 }
 
 .standard_margin_top_bottom {
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .mad_footer {
   div {
     @include top_bottom_padding(16pt);
   }
-  margin-top: 16px;
   @include bg_img('../images/bg_bottom.jpg');
 }
 
@@ -131,6 +144,10 @@ body {
   div {
     @include top_bottom_padding(16pt);
   }
+}
+
+.media-left {
+  padding-left: 15px;
 }
 
 .front_image_div {

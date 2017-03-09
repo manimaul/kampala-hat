@@ -1,3 +1,11 @@
+.blip_section_heading {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto; }
+
+header {
+  margin-bottom: 30px; }
+
 body {
   padding-top: 50px;
   -webkit-font-smoothing: antialiased;
@@ -12,6 +20,12 @@ body {
 
 .section-hero {
   background: url("../images/bg_top.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.section-seattle {
+  background: url("../images/seattle.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
@@ -64,11 +78,10 @@ body {
   margin-bottom: 16px; }
 
 .standard_margin_top_bottom {
-  margin-top: 16px;
-  margin-bottom: 16px; }
+  margin-top: 30px;
+  margin-bottom: 30px; }
 
 .mad_footer {
-  margin-top: 16px;
   background: url("../images/bg_bottom.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -92,6 +105,9 @@ body {
 .hero-heading div {
   padding-top: 16pt;
   padding-bottom: 16pt; }
+
+.media-left {
+  padding-left: 15px; }
 
 .front_image_div {
   margin-top: 12pt; }

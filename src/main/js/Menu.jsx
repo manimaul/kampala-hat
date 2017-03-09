@@ -31,7 +31,7 @@ export default class Menu extends React.Component {
                         </div>
                         <div id="navbar" className="collapse navbar-collapse">
                             <ul className="nav navbar-nav">
-                                <li><Link to={"/events"} href="">EVENTS</Link></li>
+                                <li><Link to={"/kampala_hat"} href="">KAMPALA HACK-A-THON</Link></li>
                                 <li><Link to={"/contact"} href="">GET IN TOUCH</Link></li>
                             </ul>
                         </div>
