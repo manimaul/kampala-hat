@@ -2,6 +2,7 @@
 
 import React from 'react';
 import {Router, Route, Link, hashHistory} from 'react-router'
+import HatConstants from './Constants'
 
 export default class Menu extends React.Component {
     constructor(props) {
@@ -31,7 +32,7 @@ export default class Menu extends React.Component {
                         </div>
                         <div id="navbar" className="collapse navbar-collapse">
                             <ul className="nav navbar-nav">
-                                <li><Link to={"/kampala_hat"} href="">KAMPALA HACK-A-THON</Link></li>
+                                <li><Link to={HatConstants.routeHat} href="">KAMPALA HACK-A-THON</Link></li>
                                 <li><Link to={"/contact"} href="">GET IN TOUCH</Link></li>
                             </ul>
                         </div>

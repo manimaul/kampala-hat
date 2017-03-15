@@ -21,7 +21,7 @@ export default class Blip extends React.Component {
     getRenderedImage() {
         if (this.imageUrl) {
             return (
-                <div className="media-left media-middle">
+                <div className="media-left media-top">
                     <img className="media-object" src={this.imageUrl}/>
                 </div>
             )

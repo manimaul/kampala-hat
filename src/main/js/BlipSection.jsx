@@ -8,16 +8,6 @@ export default class BlipSection extends React.Component {
         super(props);
         this.title = props.title;
         this.blips = props.blips;
-        if (this.blips.length >= 4) {
-            this.clazzName = "col-xs-6 col-sm-3"
-        } else if (this.blips.length >= 3) {
-            this.clazzName = "col-xs-6 col-sm-4"
-        } else if (this.blips.length >= 2) {
-            this.clazzName = "col-xs-6"
-        } else {
-            this.clazzName = ""
-        }
-
     }
 
     componentDidMount() {
@@ -29,7 +19,7 @@ export default class BlipSection extends React.Component {
     renderBlip(blip, i) {
         if (blip) {
             return (
-                <div className={this.clazzName} key={i}>
+                <div className="col-md-6" key={i}>
                     {blip}
                 </div>
             )
