@@ -3,12 +3,10 @@
 import React from 'react';
 import {Router, Route, Link, hashHistory} from 'react-router'
 import Footer from './Footer'
-import Blip from './Blip'
-import BlipSection from './BlipSection'
 import Hero from './Hero'
 import Menu from './Menu'
-import HatConstants from './Constants'
 import {Gmaps, Marker, InfoWindow} from 'react-gmaps';
+import HatHeader from './HatHeader';
 
 
 export default class Hat extends React.Component {
@@ -76,24 +74,21 @@ export default class Hat extends React.Component {
 
     render() {
 
-        let blip3 = <Blip heading={HatConstants.themeTitle}
-                          imageUrl="images/afh.jpg"
-                          message={HatConstants.themeMessage}/>;
-
         const params = {v: '3.exp', key: "AIzaSyBOX9XrM2tES7DCVpt9hAW036HN-Co_2Bw"};
 
         return (
             <div>
                 <Menu/>
                 <Hero titleImage={"images/madrona_logo-nq8.png"}/>
-                <BlipSection title="Kampala, Uganda Hack-A-Thon Event"
-                             blips={[blip3]}/>
+                <HatHeader/>
 
                 <div className="container standard_margin">
-                    <h1>May 26-28, 2017</h1>
 
-                    <h3>Where:</h3>
-                    <p>InnovationVillage - 3rd Floor Ntinda Complex Plot 33 Ntinda Road</p>
+                    <h2>InnovationVillage</h2>
+                    <p>3rd Floor Ntinda Complex | Plot 33 | Opposite St. Luke Church – Ntinda
+                        <br/>
+                        Kampala, Uganda
+                    </p>
                     <Gmaps
                         width={'400px'}
                         height={'200px'}
@@ -106,24 +101,40 @@ export default class Hat extends React.Component {
                         {this.state.marker_info}
                     </Gmaps>
 
-                    <h3>Schedule:</h3>
-                    <li>Evening Introduction: May 26 5:30PM</li>
-                    <li>All Day Hack-A-Thon Day 1 May 27</li>
-                    <li>All Day Hack-A-Thon, Demos and Awards Day 2 May 28</li>
+                    <h2>Fun Focus</h2>
+                    <p>We're looking to build a developer team locally in Kampala. We are specifically interested in
+                        engaging developers who have an expertise in mobile software and back end systems. As a result,
+                        we will also be scoring based on categories we would look for when building our team:</p>
+                    <li>Creativity</li>
+                    <li>Collaboration</li>
+                    <li>Functionality</li>
+                    <li>Mobile Focus</li>
+                    <li>Design Patterns</li>
+                    <br/>
+                    <p>A good candidate for this hack-a-thon would be individuals interested in developing mobile software
+                        in a high performing team. If that's you, join us in the competition for the <strong>fun</strong> and
+                        <strong> community</strong>.</p>
 
-                    <h3>Team Requirements:</h3>
-                    <li>Contestants must be residents of Uganda</li>
+                    <img className="img-responsive f_img" src="images/team.jpg"/>
+
+                    <h2>Schedule May 26-28, 2017</h2>
+                    <li><i>Introduction:</i> May 26 5:30PM</li>
+                    <li><i>Hack-A-Thon Day 1:</i> May 27</li>
+                    <li><i>Hack-A-Thon Day 2, Demos and Awards:</i> May 28</li>
+
+                    <h2>Team Requirements</h2>
                     <li>Contestants must have their own laptop</li>
                     <li>We suggest to keep the team size 2-5 people</li>
                     <li>Power and WIFI will be provided for all contestants</li>
                     <li>All Teams must submit a registration and be accepted in order to attend</li>
                     <br/>
+
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLScAIRui7_M3tofR7PWilAZgJSiTABN5WzzrlsS0lH6cOmC31w/viewform"
                        target="_blank">
-                        <button type="button" className="btn btn-danger navbar-btn">TEAM REGISTRATION</button>
+                        <button type="button" className="btn-lg btn-danger navbar-btn">REGISTRATION</button>
                     </a>
 
-                    <h3>Project Requirements:</h3>
+                    <h2>Project Requirements</h2>
                     <li>All entry code must be publicly submitted to <a href="https://github.com/">GitHub</a></li>
                     <li>Entries must be published with an <a href="https://opensource.org/licenses">OSI-approved open
                         source license</a>.
@@ -133,14 +144,6 @@ export default class Hat extends React.Component {
                         libraries and or frameworks may be used.
                     </li>
                     <li>All entries must be developed during the event (not before).</li>
-
-                    <h3>Theme Information:</h3>
-                    <p>{HatConstants.themeBlurb}</p>
-
-                    <h3>Prizes:</h3>
-                    <li>1st - TBD</li>
-                    <li>2nd - TBD</li>
-                    <li>3rd - TBD</li>
 
                 </div>
                 <h1>&nbsp;</h1>

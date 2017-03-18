@@ -9,6 +9,7 @@ import BlipSection from './BlipSection';
 import Hero from './Hero';
 import Menu from './Menu';
 import Hat from './Hat';
+import HatHeader from './HatHeader';
 import HatConstants from './Constants';
 
 class Seattle extends React.Component {
@@ -68,21 +69,11 @@ class App extends React.Component {
             <button type="button" className="btn btn-danger navbar-btn">MORE INFO</button>
         </Link>;
 
-        let hatBlip1 = <Blip heading={HatConstants.themeTitle}
-                             imageUrl="images/afh.jpg"
-                             message={HatConstants.themeMessage}
-                             button={btn}/>;
-
-        let hatBlip2 = <div>
-            <p>{HatConstants.themeBlurb}</p>
-        </div>;
-
         return (
             <div>
                 <Menu/>
                 <Hero titleImage={"images/madrona_logo-nq8.png"}/>
-                <BlipSection title="Kampala, Uganda Hack-A-Thon Event"
-                             blips={[hatBlip1, hatBlip2]}/>
+                <HatHeader button={btn} />
                 <h1>&nbsp;</h1>
                 <Seattle/>
                 <BlipSection title="We are a creative software studio in Seattle, Washington."

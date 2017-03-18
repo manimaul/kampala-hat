@@ -33,6 +33,9 @@ body {
 .icon {
   height: 96px; }
 
+.f_img {
+  max-width: 400px; }
+
 .navbar-inverse {
   background: #242b36 none;
   border-color: #242b36; }
@@ -45,12 +48,10 @@ body {
   .dark_layer_text a, .dark_layer a, .dark_dark_layer a {
     color: #ffffff; }
 
-.btm_space, .input-group .form-control, .input-group .btm_space, .note {
-  margin-bottom: 8px; }
-
 .note {
   font-style: italic;
-  font-weight: bold; }
+  font-weight: bold;
+  margin-bottom: 8px; }
 
 .btn_img {
   width: 44px;
