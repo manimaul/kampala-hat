@@ -2,14 +2,14 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Router, Route, Link, hashHistory} from 'react-router'
-import Footer from './Footer'
-import Blip from './Blip'
-import BlipSection from './BlipSection'
-import Hero from './Hero'
-import Menu from './Menu'
-import Hat from './Hat'
-import HatConstants from './Constants'
+import {Router, Route, Link, hashHistory} from 'react-router';
+import Footer from './Footer';
+import Blip from './Blip';
+import BlipSection from './BlipSection';
+import Hero from './Hero';
+import Menu from './Menu';
+import Hat from './Hat';
+import HatConstants from './Constants';
 
 class Seattle extends React.Component {
     constructor(props) {
@@ -96,9 +96,6 @@ class App extends React.Component {
 ReactDOM.render((
     <Router history={hashHistory}>
         <Route path="/" component={App}/>
-        <Route path={HatConstants.routeHat} component={Hat}>
-            <Route path={HatConstants.routeHatRegister} component={Hat}/>
-        </Route>
-        <Route path="/contact" component={App}/>
+        <Route path={HatConstants.routeHat} component={Hat}/>
     </Router>
 ), document.getElementById('content'));

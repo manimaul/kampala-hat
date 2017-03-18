@@ -6,10 +6,6 @@ export default class HatConstants {
         return "/hat"
     }
 
-    static get routeHatRegister() {
-        return "/hat/register"
-    }
-
     static get themeTitle() {
         return "Theme: Mobile First"
     };

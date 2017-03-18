@@ -45,10 +45,12 @@ body {
   .dark_layer_text a, .dark_layer a, .dark_dark_layer a {
     color: #ffffff; }
 
+.btm_space, .input-group .form-control, .input-group .btm_space, .note {
+  margin-bottom: 8px; }
+
 .note {
   font-style: italic;
-  font-weight: bold;
-  margin-bottom: 8px; }
+  font-weight: bold; }
 
 .btn_img {
   width: 44px;

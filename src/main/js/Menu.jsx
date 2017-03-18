@@ -33,7 +33,6 @@ export default class Menu extends React.Component {
                         <div id="navbar" className="collapse navbar-collapse">
                             <ul className="nav navbar-nav">
                                 <li><Link to={HatConstants.routeHat} href="">KAMPALA HACK-A-THON</Link></li>
-                                <li><Link to={"/contact"} href="">GET IN TOUCH</Link></li>
                             </ul>
                         </div>
                     </div>
