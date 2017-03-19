@@ -66,7 +66,7 @@ class App extends React.Component {
                                           relationships, patterns, and trends around us.."/>;
 
         let btn = <Link to={HatConstants.routeHat} href="">
-            <button type="button" className="btn btn-danger navbar-btn">MORE INFO</button>
+            <button type="button" className="btn btn-danger navbar-btn">HACK-A-THON INFO</button>
         </Link>;
 
         return (

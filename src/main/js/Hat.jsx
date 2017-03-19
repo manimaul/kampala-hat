@@ -82,9 +82,9 @@ export default class Hat extends React.Component {
                 <Hero titleImage={"images/madrona_logo-nq8.png"}/>
                 <HatHeader/>
 
-                <div className="container standard_margin">
+                <div className="container">
 
-                    <h2>InnovationVillage</h2>
+                    <h2>Innovation Village</h2>
                     <p>3rd Floor Ntinda Complex | Plot 33 | Opposite St. Luke Church – Ntinda
                         <br/>
                         Kampala, Uganda
@@ -102,39 +102,47 @@ export default class Hat extends React.Component {
                     </Gmaps>
 
                     <h2>Fun Focus</h2>
-                    <p>We're looking to build a developer team locally in Kampala. We are specifically interested in
+                    <p>We are looking to build a developer team locally in Kampala. We are specifically interested in
                         engaging developers who have an expertise in mobile software and back end systems. As a result,
-                        we will also be scoring based on categories we would look for when building our team:</p>
+                        we will also be scoring the hack-a-thon based on categories that we are looking for to building
+                        our team:</p>
                     <li>Creativity</li>
                     <li>Collaboration</li>
                     <li>Functionality</li>
                     <li>Mobile Focus</li>
                     <li>Design Patterns</li>
                     <br/>
-                    <p>A good candidate for this hack-a-thon would be individuals interested in developing mobile software
-                        in a high performing team. If that's you, join us in the competition for the <strong>fun</strong> and
-                        <strong> community</strong>.</p>
+                    <p>Are you interested in developing mobile software in a high performing team focused on lean and XP
+                        practices, continuous improvement, continual delivery, and behavior/test driven development? If
+                        that's you, join us in the competition for the <strong>fun</strong> and<strong> community</strong>.</p>
+                    <br/>
 
                     <img className="img-responsive f_img" src="images/team.jpg"/>
 
                     <h2>Schedule May 26-28, 2017</h2>
-                    <li><i>Introduction:</i> May 26 5:30PM</li>
-                    <li><i>Hack-A-Thon Day 1:</i> May 27</li>
-                    <li><i>Hack-A-Thon Day 2, Demos and Awards:</i> May 28</li>
-
-                    <h2>Team Requirements</h2>
-                    <li>Contestants must have their own laptop</li>
-                    <li>We suggest to keep the team size 2-5 people</li>
-                    <li>Power and WIFI will be provided for all contestants</li>
-                    <li>All Teams must submit a registration and be accepted in order to attend</li>
+                    <li><strong>May 26 5:30PM:</strong> <i>Introduction</i></li>
+                    <li><strong>May 27 5:30PM:</strong> <i>Hack-A-Thon Day 1</i></li>
+                    <li><strong>May 28 5:30PM:</strong> <i>Hack-A-Thon Day 2, Demos and Awards</i></li>
+                    <i>You will be presenting your project in a 10 minute demonstration.</i>
                     <br/>
 
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScAIRui7_M3tofR7PWilAZgJSiTABN5WzzrlsS0lH6cOmC31w/viewform"
-                       target="_blank">
-                        <button type="button" className="btn-lg btn-danger navbar-btn">REGISTRATION</button>
-                    </a>
+                    <h2>Contestant Requirements</h2>
+                    <li>Power, WIFI, lunch and sports drinks will be provided for all contestants</li>
+                    <li>Contestants must have their own laptop</li>
+                    <li>Contestants must submit a registration and be accepted in order to attend</li>
+                    <br/>
+
+                    <h2>Teams & Individuals</h2>
+                    <p>You must register for the hack-a-thon as an individual and may compete as either an individual or as a team.
+                    Competing as a team is encouraged but not mandatory. We suggest team sizes between 2 to 5 members.
+                    If you do not have a team, you may optionally indicate that you'd like to be placed in one on the registration form.
+                    We match you up with others with complementary skill.</p>
+                    <br/>
 
                     <h2>Project Requirements</h2>
+                    <p>You will be building a &quot;Mobile First&quot; application as an iOS app, Android app or Responsive Web App.
+                    We are leaving this purposefully open-ended for you to create anything because we are more interested in you
+                    as an individual. What you create gives us a better perspective of who you are.</p>
                     <li>All entry code must be publicly submitted to <a href="https://github.com/">GitHub</a></li>
                     <li>Entries must be published with an <a href="https://opensource.org/licenses">OSI-approved open
                         source license</a>.
@@ -144,6 +152,12 @@ export default class Hat extends React.Component {
                         libraries and or frameworks may be used.
                     </li>
                     <li>All entries must be developed during the event (not before).</li>
+                    <br/>
+
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScAIRui7_M3tofR7PWilAZgJSiTABN5WzzrlsS0lH6cOmC31w/viewform"
+                       target="_blank">
+                        <button type="button" className="btn-lg btn-danger navbar-btn">REGISTRATION APPLICATION</button>
+                    </a>
 
                 </div>
                 <h1>&nbsp;</h1>
