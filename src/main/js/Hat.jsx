@@ -100,31 +100,33 @@ export default class Hat extends React.Component {
                         onMapCreated={this.onMapCreated}>
                         {this.state.marker_info}
                     </Gmaps>
+                    <br />
 
                     <h2>Fun Focus</h2>
+                    <p>Are you interested in developing mobile software in a high performing team focused on lean and XP
+                        practices, continuous improvement, continual delivery, and behavior/test driven development? If
+                        that's you, join us in the competition for <strong>fun</strong> and<strong> community</strong>.</p>
                     <p>We are looking to build a developer team locally in Kampala. We are specifically interested in
-                        engaging developers who have an expertise in mobile software and back end systems. As a result,
-                        we will also be scoring the hack-a-thon based on categories that we are looking for to building
-                        our team:</p>
+                        engaging developers who have an expertise in mobile software and back end systems.
+                        We will be scoring the hack-a-thon based on tenets that we are looking for from our team members.</p>
                     <li>Creativity</li>
                     <li>Collaboration</li>
                     <li>Functionality</li>
                     <li>Mobile Focus</li>
-                    <li>Design Patterns</li>
+                    <li>Use of Design Patterns</li>
                     <br/>
-                    <p>Are you interested in developing mobile software in a high performing team focused on lean and XP
-                        practices, continuous improvement, continual delivery, and behavior/test driven development? If
-                        that's you, join us in the competition for the <strong>fun</strong> and<strong> community</strong>.</p>
-                    <br/>
+                    <br />
 
                     <img className="img-responsive f_img" src="images/team.jpg"/>
+                    <br />
 
                     <h2>Schedule May 26-28, 2017</h2>
                     <li><strong>May 26 5:30PM:</strong> <i>Introduction</i></li>
-                    <li><strong>May 27 5:30PM:</strong> <i>Hack-A-Thon Day 1</i></li>
-                    <li><strong>May 28 5:30PM:</strong> <i>Hack-A-Thon Day 2, Demos and Awards</i></li>
+                    <li><strong>May 27:</strong> <i>Hack-A-Thon Day 1</i></li>
+                    <li><strong>May 28:</strong> <i>Hack-A-Thon Day 2, Demos and Awards</i></li>
                     <i>You will be presenting your project in a 10 minute demonstration.</i>
                     <br/>
+                    <br />
 
                     <h2>Contestant Requirements</h2>
                     <li>Power, WIFI, lunch and sports drinks will be provided for all contestants</li>
@@ -140,9 +142,9 @@ export default class Hat extends React.Component {
                     <br/>
 
                     <h2>Project Requirements</h2>
-                    <p>You will be building a &quot;Mobile First&quot; application as an iOS app, Android app or Responsive Web App.
-                    We are leaving this purposefully open-ended for you to create anything because we are more interested in you
-                    as an individual. What you create gives us a better perspective of who you are.</p>
+                    <p>You will be building a &quot;Mobile First&quot; application as an iOS app, Android app, or Responsive Web App.
+                    We are purposefully leaving this open-ended to make room for your creativity. We are interested in you
+                    as an individual - what you create gives us perspective on who you are.</p>
                     <li>All entry code must be publicly submitted to <a href="https://github.com/">GitHub</a></li>
                     <li>Entries must be published with an <a href="https://opensource.org/licenses">OSI-approved open
                         source license</a>.
@@ -152,6 +154,7 @@ export default class Hat extends React.Component {
                         libraries and or frameworks may be used.
                     </li>
                     <li>All entries must be developed during the event (not before).</li>
+                    <br/>
                     <br/>
 
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLScAIRui7_M3tofR7PWilAZgJSiTABN5WzzrlsS0lH6cOmC31w/viewform"
