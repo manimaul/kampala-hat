@@ -100,51 +100,73 @@ export default class Hat extends React.Component {
                         onMapCreated={this.onMapCreated}>
                         {this.state.marker_info}
                     </Gmaps>
-                    <br />
+                    <div className="standard_margin"/>
 
                     <h2>Fun Focus</h2>
                     <p>Are you interested in developing mobile software in a high performing team focused on lean and XP
                         practices, continuous improvement, continual delivery, and behavior/test driven development? If
-                        that's you, join us in the competition for <strong>fun</strong> and<strong> community</strong>.</p>
+                        that's you, join us in the competition for <strong>fun</strong> and<strong> community</strong>.
+                    </p>
                     <p>We are looking to build a developer team locally in Kampala. We are specifically interested in
                         engaging developers who have an expertise in mobile software and back end systems.
-                        We will be scoring the hack-a-thon based on tenets that we are looking for from our team members.</p>
+                        We will be scoring the hack-a-thon based on tenets that we are looking for from our team
+                        members.</p>
                     <li>Creativity</li>
                     <li>Collaboration</li>
                     <li>Functionality</li>
                     <li>Mobile Focus</li>
                     <li>Use of Design Patterns</li>
-                    <br/>
-                    <br />
+                    <div className="standard_margin"/>
 
+                    <img className="img-responsive f_img" src="images/partners.jpg"/>
+                    <div className="standard_margin"/>
                     <img className="img-responsive f_img" src="images/team.jpg"/>
-                    <br />
+                    <div className="standard_margin"/>
+
+                    <h2>1st Place - $5,000.00 USD</h2>
+                    <p>The winning team (or individual) will receive a $5,000.00 USD cash prize.</p>
+                    <div className="standard_margin"/>
 
                     <h2>Schedule May 26-28, 2017</h2>
                     <li><strong>May 26 5:30PM:</strong> <i>Introduction</i></li>
                     <li><strong>May 27:</strong> <i>Hack-A-Thon Day 1</i></li>
                     <li><strong>May 28:</strong> <i>Hack-A-Thon Day 2, Demos and Awards</i></li>
                     <i>You will be presenting your project in a 10 minute demonstration.</i>
-                    <br/>
-                    <br />
+                    <div className="standard_margin"/>
 
                     <h2>Contestant Requirements</h2>
                     <li>Power, WIFI, lunch and sports drinks will be provided for all contestants</li>
                     <li>Contestants must have their own laptop</li>
                     <li>Contestants must submit a registration and be accepted in order to attend</li>
-                    <br/>
+                    <div className="standard_margin"/>
 
                     <h2>Teams & Individuals</h2>
-                    <p>You must register for the hack-a-thon as an individual and may compete as either an individual or as a team.
-                    Competing as a team is encouraged but not mandatory. We suggest team sizes between 2 to 5 members.
-                    If you do not have a team, you may optionally indicate that you'd like to be placed in one on the registration form.
-                    We match you up with others with complementary skill.</p>
-                    <br/>
+                    <p>You must register for the hack-a-thon as an individual and may compete as either an individual or
+                        as a team.
+                        Competing as a team is encouraged but not mandatory. We suggest team sizes between 2 to 5
+                        members.
+                        If you do not have a team, you may optionally indicate that you'd like to be placed in one on
+                        the registration form.
+                        We match you up with others with complementary skill.</p>
+                    <div className="standard_margin"/>
+
+                    <div className="bs-calltoaction bs-calltoaction-primary">
+                        <div className="row">
+                            <div className="col-md-3 cta-button">
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLScAIRui7_M3tofR7PWilAZgJSiTABN5WzzrlsS0lH6cOmC31w/viewform"
+                                   target="_blank" className="btn btn-lg btn-block btn-primary">REGISTRATION
+                                    APPLICATION</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="standard_margin"/>
 
                     <h2>Project Requirements</h2>
-                    <p>You will be building a &quot;Mobile First&quot; application as an iOS app, Android app, or Responsive Web App.
-                    We are purposefully leaving this open-ended to make room for your creativity. We are interested in you
-                    as an individual - what you create gives us perspective on who you are.</p>
+                    <p>You will be building a &quot;Mobile First&quot; application as an iOS app, Android app, or
+                        Responsive Web App.
+                        We are purposefully leaving this open-ended to make room for your creativity. We are interested
+                        in you
+                        as an individual - what you create gives us perspective on who you are.</p>
                     <li>All entry code must be publicly submitted to <a href="https://github.com/">GitHub</a></li>
                     <li>Entries must be published with an <a href="https://opensource.org/licenses">OSI-approved open
                         source license</a>.
@@ -154,13 +176,26 @@ export default class Hat extends React.Component {
                         libraries and or frameworks may be used.
                     </li>
                     <li>All entries must be developed during the event (not before).</li>
-                    <br/>
-                    <br/>
+                    <div className="double_margin_bottom"/>
+                    <div className="double_margin_bottom"/>
 
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScAIRui7_M3tofR7PWilAZgJSiTABN5WzzrlsS0lH6cOmC31w/viewform"
-                       target="_blank">
-                        <button type="button" className="btn-lg btn-danger navbar-btn">REGISTRATION APPLICATION</button>
-                    </a>
+                    <h2>Sponsors and Hosts</h2>
+
+                    <div className="double_margin_bottom"/>
+
+                    <a href="http://airsaveuganda.com/" target="_blank"> <img className="img-responsive l_img"
+                                                                              src="images/airsave.jpg"/></a>
+                    <div className="double_margin_bottom"/>
+
+                    <a href="https://generalui.com/" target="_blank"> <img className="img-responsive l_img gui"
+                                                                           src="images/gui.png"/></a>
+                    <div className="double_margin_bottom"/>
+
+                    <a href="http://innovationvillage.co.ug/" target="_blank"><img className="img-responsive l_img"
+                                                                                   src="images/innovation_village.jpg"/></a>
+
+                    <a href="https://madrona.io/" target="_blank"> <img className="img-responsive l_img gui"
+                                                                        src="images/madrona_logo-nq8.png"/></a>
 
                 </div>
                 <h1>&nbsp;</h1>
