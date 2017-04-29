@@ -183,19 +183,26 @@ export default class Hat extends React.Component {
 
                     <div className="double_margin_bottom"/>
 
-                    <a href="http://airsaveuganda.com/" target="_blank"> <img className="img-responsive l_img"
-                                                                              src="images/airsave.jpg"/></a>
-                    <div className="double_margin_bottom"/>
-
                     <a href="https://generalui.com/" target="_blank"> <img className="img-responsive l_img gui"
                                                                            src="images/gui.png"/></a>
                     <div className="double_margin_bottom"/>
 
+
+                    <a href="http://www.nftmawazo.com" target="_blank"> <img className="img-responsive l_img"
+                                                                              src="images/mawazo.jpg"/></a>
+
+                    <div className="double_margin_bottom"/>
+
+                    <a href="http://airsaveuganda.com/" target="_blank"> <img className="img-responsive l_img"
+                                                                              src="images/airsave.jpg"/></a>
+                    <div className="double_margin_bottom"/>
+
+
                     <a href="http://innovationvillage.co.ug/" target="_blank"><img className="img-responsive l_img"
                                                                                    src="images/innovation_village.jpg"/></a>
 
-                    <a href="https://madrona.io/" target="_blank"> <img className="img-responsive l_img gui"
-                                                                        src="images/madrona_logo-nq8.png"/></a>
+                    <a href="https://madrona.io/" target="_blank"> <img className="img-responsive l_img"
+                                                                        src="images/madrona_logo_blk.png"/></a>
 
                 </div>
                 <h1>&nbsp;</h1>
