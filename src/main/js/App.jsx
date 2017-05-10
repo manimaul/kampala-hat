@@ -63,15 +63,6 @@ class App extends React.Component {
             <div>
                 <Menu/>
                 <Hero titleImage={"images/madrona_logo-nq8.png"}/>
-
-                <div className="bcrumb-color">
-                    <div className="container">
-                        <ol className="breadcrumb">
-                            <li className="active">Home</li>
-                        </ol>
-                    </div>
-                </div>
-
                 <HatHeader button={btn}/>
                 <h1>&nbsp;</h1>
                 <Seattle/>

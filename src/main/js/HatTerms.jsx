@@ -1,10 +1,11 @@
 'use strict';
 
 import React from 'react';
-import {Router, Route, Link, hashHistory} from 'react-router'
-import Footer from './Footer'
-import Hero from './Hero'
-import Menu from './Menu'
+import {Router, Route, Link, hashHistory} from 'react-router';
+import Footer from './Footer';
+import Hero from './Hero';
+import Menu from './Menu';
+import HatTabs from './HatTabs';
 import HatConstants from './Constants';
 
 export default class HatTerms extends React.Component {
@@ -31,24 +32,7 @@ export default class HatTerms extends React.Component {
                 <Menu/>
                 <Hero titleImage={"images/madrona_logo-nq8.png"}/>
 
-                <div className="bcrumb-color">
-                    <div className="container">
-                        <ol className="breadcrumb">
-                            <li><Link to={HatConstants.routeHome} href="">Home</Link></li>
-                            <li className="active">Hack-A-Thon Terms</li>
-                        </ol>
-                    </div>
-                </div>
-
-                <div className="double_margin_bottom"/>
-                <div className="container">
-                    <ul className="nav nav-tabs">
-                        <li role="presentation"><Link to={HatConstants.routeHat} href="">Event Info</Link></li>
-                        <li role="presentation"><Link to={HatConstants.routeScoring} href="">Scoring and Presentation</Link></li>
-                        <li role="presentation"><Link to={HatConstants.routeHatFaq} href="">FAQ</Link></li>
-                        <li role="presentation" className="active"><Link to={HatConstants.routeTerms} href="">Terms & Conditions</Link></li>
-                    </ul>
-                </div>
+                <HatTabs routeName={HatConstants.routeTerms}/>
 
                 <div className="container">
                     <h2>Terms and Conditions for The Mobile First App Hack-A-Thon</h2>
@@ -135,9 +119,8 @@ export default class HatTerms extends React.Component {
                         <li>MADRONA and AIR SAVE reserve the right, without prior notice and at any time, to terminate or suspend the Hack-A-Thon, in whole or in part, or to modify the Hack-A-Thon, should any factor (including but not limited to fraud or security breach) interfere with the Hack-A-Thon as contemplated by these terms and conditions or if MADRONA and AIR SAVE believes that the Hack-A-Thon has been or will be compromised in any way.</li>
                         <li>Ugandan law shall govern this Hack-A-Thon. Any litigation of a dispute arising out of, or in connection with the Hack-A-Thon shall be subject to the sole and exclusive jurisdiction of Ugandan courts. By participating you irrevocably submit to the sole and exclusive jurisdiction of such courts for such purpose and waive any objection in connection with the same.</li>
                     </ul>
-                    
+                    <img className="img-responsive" src="images/mfht.jpg"/>
                 </div>
-                <div className="double_margin_bottom"/>
                 <Footer/>
             </div>
         )

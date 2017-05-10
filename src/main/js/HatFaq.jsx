@@ -6,6 +6,7 @@ import Footer from './Footer'
 import Hero from './Hero'
 import Menu from './Menu'
 import HatConstants from './Constants';
+import HatTabs from './HatTabs'
 
 export default class HatFaq extends React.Component {
     constructor(props) {
@@ -30,25 +31,8 @@ export default class HatFaq extends React.Component {
             <div>
                 <Menu/>
                 <Hero titleImage={"images/madrona_logo-nq8.png"}/>
-
-                <div className="bcrumb-color">
-                    <div className="container">
-                        <ol className="breadcrumb">
-                            <li><Link to={HatConstants.routeHome} href="">Home</Link></li>
-                            <li className="active">Hack-A-Thon FAQ</li>
-                        </ol>
-                    </div>
-                </div>
-
                 <div className="double_margin_bottom"/>
-                <div className="container">
-                    <ul className="nav nav-tabs">
-                        <li role="presentation"><Link to={HatConstants.routeHat} href="">Event Info</Link></li>
-                        <li role="presentation"><Link to={HatConstants.routeScoring} href="">Scoring and Presentation</Link></li>
-                        <li role="presentation"className="active"><Link to={HatConstants.routeHatFaq} href="">FAQ</Link></li>
-                        <li role="presentation"><Link to={HatConstants.routeTerms} href="">Terms & Conditions</Link></li>
-                    </ul>
-                </div>
+                <HatTabs routeName={HatConstants.routeHatFaq}/>
 
                 <div className="container">
                     <h1>Hack-A-Thon FAQ</h1>
@@ -90,8 +74,7 @@ export default class HatFaq extends React.Component {
                         <li><strong>Can I use libraries and which ones?</strong></li>
                         <p>Yes, please do. Any OSI-approved open source licensed libraries and or frameworks may be used.</p>
                     </ol>
-                    <h1>&nbsp;</h1>
-
+                    <img className="img-responsive" src="images/mfht.jpg"/>
                 </div>
                 <Footer/>
             </div>

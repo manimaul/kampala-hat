@@ -24,7 +24,7 @@ export default class HatHeader extends React.Component {
                 <div className="row">
                     <div className="col-md-4 double_margin_bottom">
                         <h4>Community, Competition, Discovery</h4>
-                        <img className="img-responsive" src="images/afh.jpg"/>
+                        <img className="img-responsive" src="images/afwh.jpg"/>
                     </div>
                     <div className="col-md-4 double_margin_bottom">
                         <h4>Team Building</h4>

@@ -8,6 +8,7 @@ import Menu from './Menu'
 import {Gmaps, Marker, InfoWindow} from 'react-gmaps';
 import HatHeader from './HatHeader';
 import HatConstants from './Constants';
+import HatTabs from './HatTabs';
 
 
 export default class Hat extends React.Component {
@@ -81,26 +82,7 @@ export default class Hat extends React.Component {
             <div>
                 <Menu/>
                 <Hero titleImage={"images/madrona_logo-nq8.png"}/>
-
-                <div className="bcrumb-color">
-                    <div className="container">
-                        <ol className="breadcrumb">
-                            <li><Link to={HatConstants.routeHome} href="">Home</Link></li>
-                            <li className="active">Hack-A-Thon Event Info</li>
-                        </ol>
-                    </div>
-                </div>
-
-                <div className="double_margin_bottom"/>
-                <div className="container">
-                    <ul className="nav nav-tabs">
-                        <li role="presentation" className="active"><Link to={HatConstants.routeHat} href="">Event Info</Link></li>
-                        <li role="presentation"><Link to={HatConstants.routeScoring} href="">Scoring and Presentation</Link></li>
-                        <li role="presentation"><Link to={HatConstants.routeHatFaq} href="">FAQ</Link></li>
-                        <li role="presentation"><Link to={HatConstants.routeTerms} href="">Terms & Conditions</Link></li>
-                    </ul>
-                </div>
-
+                <HatTabs routeName={HatConstants.routeHat}/>
                 <HatHeader/>
 
                 <div className="container">
@@ -139,8 +121,6 @@ export default class Hat extends React.Component {
                     <li>Use of Design Patterns</li>
                     <div className="standard_margin"/>
 
-                    <img className="img-responsive f_img" src="images/partners.jpg"/>
-                    <div className="standard_margin"/>
                     <img className="img-responsive f_img" src="images/team.jpg"/>
                     <div className="standard_margin"/>
 

@@ -1,10 +1,11 @@
 'use strict';
 
 import React from 'react';
-import {Router, Route, Link, hashHistory} from 'react-router'
-import Footer from './Footer'
-import Hero from './Hero'
-import Menu from './Menu'
+import {Router, Route, Link, hashHistory} from 'react-router';
+import Footer from './Footer';
+import Hero from './Hero';
+import Menu from './Menu';
+import HatTabs from './HatTabs';
 import HatConstants from './Constants';
 
 export default class HatScoring extends React.Component {
@@ -31,24 +32,7 @@ export default class HatScoring extends React.Component {
                 <Menu/>
                 <Hero titleImage={"images/madrona_logo-nq8.png"}/>
 
-                <div className="bcrumb-color">
-                    <div className="container">
-                        <ol className="breadcrumb">
-                            <li><Link to={HatConstants.routeHome} href="">Home</Link></li>
-                            <li className="active">Hack-A-Thon Scoring</li>
-                        </ol>
-                    </div>
-                </div>
-
-                <div className="double_margin_bottom"/>
-                <div className="container">
-                    <ul className="nav nav-tabs">
-                        <li role="presentation"><Link to={HatConstants.routeHat} href="">Event Info</Link></li>
-                        <li role="presentation" className="active"><Link to={HatConstants.routeScoring} href="">Scoring and Presentation</Link></li>
-                        <li role="presentation"><Link to={HatConstants.routeHatFaq} href="">FAQ</Link></li>
-                        <li role="presentation"><Link to={HatConstants.routeTerms} href="">Terms & Conditions</Link></li>
-                    </ul>
-                </div>
+                <HatTabs routeName={HatConstants.routeScoring}/>
 
                 <div className="container">
                     <h1>Scoring and Presentation</h1>
@@ -111,7 +95,7 @@ export default class HatScoring extends React.Component {
                         <li>Unveil the team. (Tell us why you/the team members are the ONES)</li>
                     </ol>
 
-                    <div className="double_margin_bottom" />
+                    <img className="img-responsive" src="images/mfht.jpg"/>
                 </div>
                 <Footer/>
             </div>

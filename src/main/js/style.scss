@@ -189,6 +189,12 @@ a {
   font-size: 1.75rem;
 }
 
+.img_fx {
+  -webkit-filter: grayscale(.8);
+  filter: grayscale(.8);
+
+}
+
 .bcrumb-color {
   background-color: #f5f5f5;
 }
