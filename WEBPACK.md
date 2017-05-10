@@ -16,7 +16,7 @@ cd src/main/js
 node_modules/.bin/webpack-dev-server --open
 ```
 
-####debug build
+####debug build 
 ```bash
 cd src/main/js
 PROD_ENV=0 node_modules/.bin/webpack

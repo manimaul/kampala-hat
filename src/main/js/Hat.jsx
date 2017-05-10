@@ -7,6 +7,7 @@ import Hero from './Hero'
 import Menu from './Menu'
 import {Gmaps, Marker, InfoWindow} from 'react-gmaps';
 import HatHeader from './HatHeader';
+import HatConstants from './Constants';
 
 
 export default class Hat extends React.Component {
@@ -80,6 +81,26 @@ export default class Hat extends React.Component {
             <div>
                 <Menu/>
                 <Hero titleImage={"images/madrona_logo-nq8.png"}/>
+
+                <div className="bcrumb-color">
+                    <div className="container">
+                        <ol className="breadcrumb">
+                            <li><Link to={HatConstants.routeHome} href="">Home</Link></li>
+                            <li className="active">Hack-A-Thon Event Info</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div className="double_margin_bottom"/>
+                <div className="container">
+                    <ul className="nav nav-tabs">
+                        <li role="presentation" className="active"><Link to={HatConstants.routeHat} href="">Event Info</Link></li>
+                        <li role="presentation"><Link to={HatConstants.routeScoring} href="">Scoring and Presentation</Link></li>
+                        <li role="presentation"><Link to={HatConstants.routeHatFaq} href="">FAQ</Link></li>
+                        <li role="presentation"><Link to={HatConstants.routeTerms} href="">Terms & Conditions</Link></li>
+                    </ul>
+                </div>
+
                 <HatHeader/>
 
                 <div className="container">
@@ -189,7 +210,7 @@ export default class Hat extends React.Component {
 
 
                     <a href="http://www.nftmawazo.com" target="_blank"> <img className="img-responsive l_img"
-                                                                              src="images/mawazo.jpg"/></a>
+                                                                             src="images/mawazo.jpg"/></a>
 
                     <div className="double_margin_bottom"/>
 

@@ -189,6 +189,22 @@ a {
   font-size: 1.75rem;
 }
 
+.bcrumb-color {
+  background-color: #f5f5f5;
+}
+
+.breadcrumb {
+  a {
+    font-size: 1.30rem;
+  }
+  padding: 8px 0;
+  margin-bottom: 0;
+  list-style: none;
+  @extend .bcrumb-color;
+  border-radius: 4px;
+  display: block;
+}
+
 .bs-calltoaction {
   position: relative;
   width: auto;

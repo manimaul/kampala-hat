@@ -139,6 +139,18 @@ body {
 a {
   font-size: 1.75rem; }
 
+.bcrumb-color, .breadcrumb {
+  background-color: #f5f5f5; }
+
+.breadcrumb {
+  padding: 8px 0;
+  margin-bottom: 0;
+  list-style: none;
+  border-radius: 4px;
+  display: block; }
+  .breadcrumb a {
+    font-size: 1.30rem; }
+
 .bs-calltoaction {
   position: relative;
   width: auto;

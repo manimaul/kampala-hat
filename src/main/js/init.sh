@@ -10,4 +10,4 @@ npm install --save-dev rx-lite
 npm install --save-dev react react-dom react-router
 npm install --save-dev babel-loader babel-core babel-preset-es2015 babel-preset-react
 npm install --save-dev react-gmaps
-gem install sass
+#gem install sass

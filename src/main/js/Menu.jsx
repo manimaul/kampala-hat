@@ -28,7 +28,7 @@ export default class Menu extends React.Component {
                                 <span className="icon-bar"></span>
                                 <span className="icon-bar"></span>
                             </button>
-                            <a className="navbar-brand" href="#">MADRONA SOFTWARE</a>
+                            <Link to={HatConstants.routeHome} href=""><a className="navbar-brand" href="#">MADRONA SOFTWARE</a></Link>
                         </div>
                         <div id="navbar" className="collapse navbar-collapse">
                             <ul className="nav navbar-nav">

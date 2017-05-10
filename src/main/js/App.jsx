@@ -8,7 +8,10 @@ import About from './About'
 import Hero from './Hero';
 import Menu from './Menu';
 import Hat from './Hat';
+import HatFaq from './HatFaq';
+import HatScoring from './HatScoring'
 import HatHeader from './HatHeader';
+import HatTerms from './HatTerms';
 import HatConstants from './Constants';
 
 class Seattle extends React.Component {
@@ -60,7 +63,16 @@ class App extends React.Component {
             <div>
                 <Menu/>
                 <Hero titleImage={"images/madrona_logo-nq8.png"}/>
-                <HatHeader button={btn} />
+
+                <div className="bcrumb-color">
+                    <div className="container">
+                        <ol className="breadcrumb">
+                            <li className="active">Home</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <HatHeader button={btn}/>
                 <h1>&nbsp;</h1>
                 <Seattle/>
                 <About/>
@@ -72,7 +84,10 @@ class App extends React.Component {
 
 ReactDOM.render((
     <Router history={hashHistory}>
-        <Route path="/" component={App}/>
+        <Route path={HatConstants.routeHome} component={App}/>
         <Route path={HatConstants.routeHat} component={Hat}/>
+        <Route path={HatConstants.routeHatFaq} component={HatFaq}/>
+        <Route path={HatConstants.routeScoring} component={HatScoring}/>
+        <Route path={HatConstants.routeTerms} component={HatTerms}/>
     </Router>
 ), document.getElementById('content'));
