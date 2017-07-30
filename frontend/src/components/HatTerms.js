@@ -6,7 +6,7 @@ import Footer from './Footer';
 import Hero from './Hero';
 import Menu from './Menu';
 import HatTabs from './HatTabs';
-import HatConstants from './Constants';
+import HatConstants from '../Constants';
 
 export default class HatTerms extends React.Component {
     constructor(props) {

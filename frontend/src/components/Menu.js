@@ -2,7 +2,7 @@
 
 import React from 'react';
 import {Router, Route, Link, hashHistory} from 'react-router'
-import HatConstants from './Constants'
+import HatConstants from '../Constants'
 
 export default class Menu extends React.Component {
     constructor(props) {

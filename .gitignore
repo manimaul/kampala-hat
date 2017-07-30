@@ -1,12 +1,2 @@
 .idea/
 *.iml
-.gradle/
-build/
-classes/
-mongodb_data/
-out/
-.DS_Store
-*bundle.js
-
-src/main/js/node_modules/
-src/main/js/.sass-cache/

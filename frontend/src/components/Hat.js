@@ -7,7 +7,7 @@ import Hero from './Hero'
 import Menu from './Menu'
 import {Gmaps, Marker, InfoWindow} from 'react-gmaps';
 import HatHeader from './HatHeader';
-import HatConstants from './Constants';
+import HatConstants from '../Constants';
 import HatTabs from './HatTabs';
 
 

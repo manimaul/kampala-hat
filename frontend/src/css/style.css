@@ -19,13 +19,13 @@ body {
   font-kerning: normal; }
 
 .section-hero {
-  background: url("../images/bg_top.jpg");
+  background: url("/images/bg_top.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
 
 .section-seattle {
-  background: url("../images/seattle.jpg");
+  background: url("/images/seattle.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
@@ -97,7 +97,7 @@ body {
   margin-bottom: 30px; }
 
 .mad_footer {
-  background: url("../images/bg_bottom.jpg");
+  background: url("/images/bg_bottom.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
@@ -114,9 +114,11 @@ body {
   font-size: 4rem;
   text-align: center;
   text-transform: uppercase; }
+
 .hero-heading p {
   margin-top: 2em;
   text-align: center; }
+
 .hero-heading div {
   padding-top: 16pt;
   padding-bottom: 16pt; }
@@ -195,17 +197,14 @@ a {
   .bs-calltoaction > .row {
     display: block;
     width: auto; }
-
   .bs-calltoaction > .row > [class^="col-"],
   .bs-calltoaction > .row > [class*=" col-"] {
     float: none;
     display: block;
     vertical-align: middle;
     position: relative; }
-
   .cta-contents {
     text-align: center; } }
+
 .bs-calltoaction.bs-calltoaction-primary {
   background-color: rgba(51, 122, 183, 0.25); }
-
-/*# sourceMappingURL=style.css.map */

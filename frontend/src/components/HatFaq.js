@@ -5,7 +5,7 @@ import {Router, Route, Link, hashHistory} from 'react-router'
 import Footer from './Footer'
 import Hero from './Hero'
 import Menu from './Menu'
-import HatConstants from './Constants';
+import HatConstants from '../Constants';
 import HatTabs from './HatTabs'
 
 export default class HatFaq extends React.Component {

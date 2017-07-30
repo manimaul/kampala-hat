@@ -3,7 +3,6 @@
 import React from 'react';
 import LazyLoad from 'react-lazyload';
 
-
 export default class Section extends React.Component {
     constructor(props) {
         super(props);
