@@ -1,7 +1,4 @@
-'use strict';
-
 import React from 'react';
-import {Router, Route, Link, hashHistory} from 'react-router';
 import Footer from './Footer';
 import Hero from './Hero';
 import Menu from './Menu';
@@ -9,22 +6,6 @@ import HatTabs from './HatTabs';
 import HatConstants from '../Constants';
 
 export default class HatTerms extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
-    componentDidMount() {
-    }
-
-    componentWillUnmount() {
-    }
-
-    onInfoWindowCloseClick() {
-        let state = {
-            marker_info: this.createMarker(),
-        };
-        this.setState(state);
-    }
 
     render() {
         return (
@@ -119,7 +100,7 @@ export default class HatTerms extends React.Component {
                         <li>MADRONA and AIR SAVE reserve the right, without prior notice and at any time, to terminate or suspend the Hack-A-Thon, in whole or in part, or to modify the Hack-A-Thon, should any factor (including but not limited to fraud or security breach) interfere with the Hack-A-Thon as contemplated by these terms and conditions or if MADRONA and AIR SAVE believes that the Hack-A-Thon has been or will be compromised in any way.</li>
                         <li>Ugandan law shall govern this Hack-A-Thon. Any litigation of a dispute arising out of, or in connection with the Hack-A-Thon shall be subject to the sole and exclusive jurisdiction of Ugandan courts. By participating you irrevocably submit to the sole and exclusive jurisdiction of such courts for such purpose and waive any objection in connection with the same.</li>
                     </ul>
-                    <img className="img-responsive" src="images/mfht.jpg"/>
+                    <img alt="" className="img-responsive" src="images/mfht.jpg"/>
                 </div>
                 <Footer/>
             </div>

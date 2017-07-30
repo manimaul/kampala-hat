@@ -1,30 +1,15 @@
-'use strict';
-
 import React from 'react';
-import {Router, Route, Link, hashHistory} from 'react-router'
-import {Gmaps, Marker, InfoWindow} from 'react-gmaps';
 
 export default class HatHeader extends React.Component {
 
-    constructor(props) {
-        super(props)
-    }
-
-    componentDidMount() {
-    }
-
-    componentWillUnmount() {
-    }
-
     render() {
-
         return (
             <div className="container standard_margin">
                 <h1>Kampala, Uganda Hack-A-Thon</h1>
                 <div className="row">
                     <div className="col-md-4 double_margin_bottom">
                         <h4>Community, Competition, Discovery</h4>
-                        <img className="img-responsive" src="images/afwh.jpg"/>
+                        <img alt="" className="img-responsive" src="images/afwh.jpg"/>
                     </div>
                     <div className="col-md-4 double_margin_bottom">
                         <h4>Team Building</h4>

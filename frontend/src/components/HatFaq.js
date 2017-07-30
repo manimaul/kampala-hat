@@ -1,7 +1,4 @@
-'use strict';
-
 import React from 'react';
-import {Router, Route, Link, hashHistory} from 'react-router'
 import Footer from './Footer'
 import Hero from './Hero'
 import Menu from './Menu'
@@ -9,22 +6,6 @@ import HatConstants from '../Constants';
 import HatTabs from './HatTabs'
 
 export default class HatFaq extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
-    componentDidMount() {
-    }
-
-    componentWillUnmount() {
-    }
-
-    onInfoWindowCloseClick() {
-        let state = {
-            marker_info: this.createMarker(),
-        };
-        this.setState(state);
-    }
 
     render() {
         return (
@@ -74,7 +55,7 @@ export default class HatFaq extends React.Component {
                         <li><strong>Can I use libraries and which ones?</strong></li>
                         <p>Yes, please do. Any OSI-approved open source licensed libraries and or frameworks may be used.</p>
                     </ol>
-                    <img className="img-responsive" src="images/mfht.jpg"/>
+                    <img alt="" className="img-responsive" src="images/mfht.jpg"/>
                 </div>
                 <Footer/>
             </div>

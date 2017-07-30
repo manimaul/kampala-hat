@@ -1,7 +1,4 @@
-'use strict';
-
 import React from 'react';
-import {Router, Route, Link, hashHistory} from 'react-router'
 import Footer from './Footer'
 import Hero from './Hero'
 import Menu from './Menu'
@@ -24,12 +21,6 @@ export default class Hat extends React.Component {
         };
     }
 
-    componentDidMount() {
-    }
-
-    componentWillUnmount() {
-    }
-
     createMarker() {
         return (<Marker
             lat={this.coords.lat}
@@ -43,7 +34,7 @@ export default class Hat extends React.Component {
             <InfoWindow
                 lat={this.coords.lat}
                 lng={this.coords.lng}
-                content={'<h6><a href="http://innovationvillage.co.ug/" target="_blank">The Innovation Village</a></h6><p><a href="https://www.google.com/maps/place/The+Innovation+Village+Kampala/@0.3479811,32.6119414,15.96z/data=!4m13!1m7!3m6!1s0x177dbbcd8d1ff9f5:0x8c8395043d8514db!2sNtinda+Rd,+Kampala,+Uganda!3b1!8m2!3d0.3439828!4d32.6165855!3m4!1s0x0:0xdedbf508f023288a!8m2!3d0.3524427!4d32.6148248" target="_blank">Map</a></p>'}
+                content={'<h6><a href="http://innovationvillage.co.ug/" target="_blank" rel="noopener noreferrer">The Innovation Village</a></h6><p><a href="https://www.google.com/maps/place/The+Innovation+Village+Kampala/@0.3479811,32.6119414,15.96z/data=!4m13!1m7!3m6!1s0x177dbbcd8d1ff9f5:0x8c8395043d8514db!2sNtinda+Rd,+Kampala,+Uganda!3b1!8m2!3d0.3439828!4d32.6165855!3m4!1s0x0:0xdedbf508f023288a!8m2!3d0.3524427!4d32.6148248" target="_blank" rel="noopener noreferrer">Map</a></p>'}
                 onCloseClick={this.onInfoWindowCloseClick.bind(this)}/>
         )
     }
@@ -121,7 +112,7 @@ export default class Hat extends React.Component {
                     <li>Use of Design Patterns</li>
                     <div className="standard_margin"/>
 
-                    <img className="img-responsive f_img" src="images/team.jpg"/>
+                    <img alt="" className="img-responsive f_img" src="images/team.jpg"/>
                     <div className="standard_margin"/>
 
                     <h2>1st Place - $5,000.00 USD</h2>
@@ -155,7 +146,7 @@ export default class Hat extends React.Component {
                         <div className="row">
                             <div className="col-md-3 cta-button">
                                 <a href="https://docs.google.com/forms/d/e/1FAIpQLScAIRui7_M3tofR7PWilAZgJSiTABN5WzzrlsS0lH6cOmC31w/viewform"
-                                   target="_blank" className="btn btn-lg btn-block btn-primary">REGISTRATION
+                                   target="_blank" rel="noopener noreferrer" className="btn btn-lg btn-block btn-primary">REGISTRATION
                                     APPLICATION</a>
                             </div>
                         </div>
@@ -184,25 +175,25 @@ export default class Hat extends React.Component {
 
                     <div className="double_margin_bottom"/>
 
-                    <a href="https://generalui.com/" target="_blank"> <img className="img-responsive l_img gui"
+                    <a href="https://generalui.com/" target="_blank" rel="noopener noreferrer"> <img alt="" className="img-responsive l_img gui"
                                                                            src="images/gui.png"/></a>
                     <div className="double_margin_bottom"/>
 
 
-                    <a href="http://www.nftmawazo.com" target="_blank"> <img className="img-responsive l_img"
+                    <a href="http://www.nftmawazo.com" target="_blank" rel="noopener noreferrer"> <img alt="" className="img-responsive l_img"
                                                                              src="images/mawazo.jpg"/></a>
 
                     <div className="double_margin_bottom"/>
 
-                    <a href="http://airsaveuganda.com/" target="_blank"> <img className="img-responsive l_img"
+                    <a href="http://airsaveuganda.com/" target="_blank" rel="noopener noreferrer"> <img alt="" className="img-responsive l_img"
                                                                               src="images/airsave.jpg"/></a>
                     <div className="double_margin_bottom"/>
 
 
-                    <a href="http://innovationvillage.co.ug/" target="_blank"><img className="img-responsive l_img"
+                    <a href="http://innovationvillage.co.ug/" target="_blank" rel="noopener noreferrer"><img alt="" className="img-responsive l_img"
                                                                                    src="images/innovation_village.jpg"/></a>
 
-                    <a href="https://madrona.io/" target="_blank"> <img className="img-responsive l_img"
+                    <a href="https://madrona.io/" target="_blank" rel="noopener noreferrer"> <img alt="" className="img-responsive l_img"
                                                                         src="images/madrona_logo_blk.png"/></a>
 
                 </div>

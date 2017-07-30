@@ -1,5 +1,3 @@
-'use strict';
-
 import React from 'react'
 
 export default class Hero extends React.Component {
@@ -8,15 +6,9 @@ export default class Hero extends React.Component {
         this.titleImage = props.titleImage;
     }
 
-    componentDidMount() {
-    }
-
-    componentWillUnmount() {
-    }
-
     getTitleImage() {
         if (this.titleImage) {
-            return (<img className="centered icon" src={this.titleImage}/>)
+            return (<img alt="Madrona Software Logo" className="centered icon" src={this.titleImage}/>)
         }
     }
 

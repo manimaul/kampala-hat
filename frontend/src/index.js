@@ -1,5 +1,3 @@
-'use strict';
-
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Router, Route, Link, hashHistory} from 'react-router';
@@ -17,15 +15,6 @@ import "./css/style.css"
 import registerServiceWorker from './registerServiceWorker';
 
 class Seattle extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
-  componentDidMount() {
-  }
-
-  componentWillUnmount() {
-  }
 
   render() {
     return (
@@ -45,15 +34,6 @@ class Seattle extends React.Component {
 }
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
-  componentDidMount() {
-  }
-
-  componentWillUnmount() {
-  }
 
   render() {
 

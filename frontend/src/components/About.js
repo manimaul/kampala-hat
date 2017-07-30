@@ -1,23 +1,8 @@
-'use strict';
-
 import React from 'react';
-import {Router, Route, Link, hashHistory} from 'react-router'
-import {Gmaps, Marker, InfoWindow} from 'react-gmaps';
 
 export default class About extends React.Component {
 
-    constructor(props) {
-        super(props)
-    }
-
-    componentDidMount() {
-    }
-
-    componentWillUnmount() {
-    }
-
     render() {
-
         return (
             <div className="container standard_margin">
                 <h1>We are a creative software studio in Seattle, Washington.</h1>

@@ -1,19 +1,8 @@
-'use strict';
-
 import React from 'react';
-import {Router, Route, Link, hashHistory} from 'react-router'
+import {Link} from 'react-router'
 import HatConstants from '../Constants'
 
 export default class Menu extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
-    componentDidMount() {
-    }
-
-    componentWillUnmount() {
-    }
 
     render() {
         return (
