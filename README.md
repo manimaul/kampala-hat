@@ -1,5 +1,5 @@
-####madrona.io 
+#### madrona.io 
 
-[react front end](frontend/README.md)
+[react front end](frontend/)
 
-[kotlin spring back end](backend/README.md)
+[kotlin spring back end](backend/)
